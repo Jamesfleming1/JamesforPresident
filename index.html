@@ -5,22 +5,24 @@
 	
 }
 #mainimg{
-background:rgb(60,60,60);
+background:rgb(80,80,80);
 text-align:center;
-height:105%;
+height:110%;
+padding:10px;
+
 }
 #topbar{
-	background:rgb(135,25,25);
+	background:rgb(160,0, 35);
 	position:fixed;
+	right:0px;
 	width:100%;
 	z-index:1;
-
 }
 
 #lists{
-	background:rgb(135, 25, 25);
+	background:rgb(160, 0, 35);
 	border-style:solid;
-	border-color:rgb(60,60,60);
+	border-color:rgb(80,80,80);
 	padding:10px;
 	display: flex;
   	
@@ -35,15 +37,21 @@ height:105%;
 	float:left;
 	width:50%;
 }
+#guitar{
+width:75%;
+position:relative;
+top:20px;
+}
 #runtext{
 position:relative;
 text-align:left;
 font-size:2vw;
 left:10px;
+top:15px;
 
 }
 #main{
-	background:rgb(135,25,25);
+	background:rgb(160,0,35);
 	
 	height:600px;
 	overflow:auto;
@@ -52,34 +60,46 @@ left:10px;
 #lab{
 	width:49%;
 	float:right;
+	position:relative;
+	top:-40px;
+
 }
 #labtext{
 text-align:right;
 position:relative;
 font-size:2vw;
-bottom:50px;
-right:30px;
+bottom:40px;
+right:45px;
 }
 
 #run{
-	width:50%	
+	width:50%;
+	position:relative;
+	top:10px;
 }
 
 #images{
-	background:rgb(60,60,60);
+	background:rgb(80,80,80);
 	text-align:center;
 	padding:10px;
+	
+}
+#tagline{
+font-family: "Arial", Helvetica, sans-serif;
+position:relative;
+font-size:2vw;
+top:10px;
 }
 .headtext{
 	color:rgb(255,255,255);
 	text-align: center;
-	text-shadow: 3px 3px rgb(0,0,0);
+	
 	
 	
 }
 .listheader{
 color:rgb(255,255,255);
-text-shadow: 3px 3px rgb(0,0,0);
+text-shadow: 2px 2px rgb(0,0,0);
 position:relative;
 
 }
@@ -103,25 +123,25 @@ font-size:2vw;
 
 </script>
 </head>
-<body link="rgb(100,100,100)" vlink="rgb(100,100,100)">
+<body link="rgb(0,0,0)" vlink="rgb(0,0,0)">
 <div id="topbar">
-<h1 class = "headtext"> James Fleming for Class President</h1>
+<h1 class = "headtext" style="text-shadow:2px 2px rgb(0,0,0);"> James Fleming for Class President</h1>
 </div>
 <div id = "mainimg">
-<img src="pic.jpg">
-<h4 class ="headtext"> <em>Reducing the monotony of everday life at Marin Academy</em></h4>
+<img id="guitar" src="pic.jpg">
+<h3 class ="headtext" id="tagline"> Reducing the monotony of everday life at Marin Academy</h3>
 </div>
 
 <div id = "lists">
 	<div id="goals">
 	<h2 class = "listheader"> Ideas and Goals</h3>
-	<ul class = "listtext">
-		<li>Grade wide games of <a href="https://en.wikipedia.org/wiki/Assassin_(game)">Assassin</a></li>
+	<ul class = "listtext" >
+		<li>Grade-wide games of <a href="https://en.wikipedia.org/wiki/Assassin_(game)">Assassin</a></li>
 		<li><em> Consistently</em> unique and diverse senior intros </li>
 		<li>Rewards for most spirited during spirit week</li>
 		<li>Interactive events in the iLab</li>
 		<li>More updates from Senate, but not in the form of emails</li>
-		<li>More random events: circle parties, cornhole on the field, movies in the library</li>
+		<li>More spontaneous events: circle parties, cornhole on the field, movies in the library</li>
 		<li>Redesign the bulletin using its own website to make it more accessible, colorful, and add images so that students have an efficient way to communicate with the entire school</li>
 		<li>Give bulletin website a "Tech Credits" section to streamline the process of finding and giving Tech Jobs
 	</ul>
